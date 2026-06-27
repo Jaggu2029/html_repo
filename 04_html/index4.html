@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <h2>Form for JEE 2025</h2>
+    <form action="post">
+        <div>
+        <label for="username">Enter your username</label>
+        <input type="text" id="username"  name="username" placeholder="Enter your username" required >
+        </div>
+         <br>
+
+        <div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" >
+
+         <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        </div>
+        <br>
+        <div>
+             <label for="date">Enter your date of birth</label>
+             <br>
+            <input type="date" id="date" name="date">
+        </div>
+
+        <br>
+        <div>
+        <label for="phone">Enter your phone number</label>
+        <input type="number" id="phone" name="phone" placeholder="+91......" autofocus>
+        </div>
+
+        <br>
+        <div>
+            <label for="mail">Enter your email ID</label>
+            <input type="email" id="mail" name="mail" placeholder="abc@gmail.com">
+
+        </div>
+        <br>
+         <div>
+        <label for="check">submit checkbox</label>
+        <input type="checkbox" id="check" name="check" >
+         </div>
+        
+
+         <br>
+         <div>
+            <label for="year">Enter your attempt</label>
+            <br>
+         <select name="yaer" id="year">
+            <option value="regu">first attempt</option>
+            <option value="fir">second attempt</option>
+            <option value="sec">third attempt</option>
+         </select>
+         </div>
+         <br>
+          
+         <div>
+
+            <label for="statement">Comment on our service</label>
+            <br>
+            <textarea name="statement" id="statement" rows="10" cols="16" placeholder="Enter your Comment"></textarea>
+         </div>
+         <br>
+         <div>
+            <input type="reset">
+         </div>
+         <br>
+         <div>
+
+            <input type="submit" >
+         </div>
+    </form>
+    
+</body>
+</html>
